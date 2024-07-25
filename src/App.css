@@ -1,0 +1,53 @@
+.resume-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 210mm; /* A4 width */
+  min-height: 297mm; /* A4 height */
+  padding: 20mm;
+  background: white;
+  box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+header a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
